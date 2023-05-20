@@ -1,0 +1,168 @@
+body{
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    min-height: auto;
+    height: 100%;
+}
+header img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    max-height: 250px;
+    heig gray;
+    width: 100%;
+    height: 5%;
+
+}
+nav .menu div{
+    margin-left: 5%;
+    font-family: .VnAristote;
+    display: inline-flex;
+    margin-top: 0.9%;
+    color: white;
+
+}
+nav .menu{
+    width: 100%;
+    margin-left: 25.6%;
+    margin-top: -0.3%;
+}
+nav{
+    display: inline-flex;
+    background: gray;
+    width: 100%;
+    height: 35px;
+}
+.menucon{
+    background: gray;
+    display: none;
+    width: 110%;
+    height: 110%;
+    margin-left: -1%;
+}
+.Lienhe :hover menucon{
+    display: block;
+}
+.Banner img{
+    max-height: 600px;
+    height: 100%;
+}
+.slogan{
+    position: absolute;
+    z-index: 1;
+    width: 19%;
+    text-align: center;
+    height: 200px;
+    color: white;
+    margin-top: -20%;
+    margin-left: 56%;
+
+}
+.slogan input{
+    width: 50%;
+    height: 35px;
+    margin-top: -3%;
+    margin-left: -39%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px -3px  2px black;
+    position: absolute;
+}
+.slogan button {
+    position: absolute;
+    margin-left: 14%;
+    margin-top: -2%;
+    width: 30%;
+    height: 35px;
+    background: gray;
+    color: white;
+    box-shadow: 3px 2px  1px white;
+    border: none;
+    border-radius: 15px;
+
+}
+.content{
+    width: 60%;
+    height: 100%;
+}
+.content1{
+    display: inline-flex;
+
+    width: 60%;
+}
+.content1 img{
+    position: absolute;
+    width: 10%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.content1 .noidung{
+
+    line-height: 28px;
+    margin-left: 40%;
+}
+.content2{
+    display: inline-flex;
+
+    width: 60%;
+}
+.content2 img{
+    position: absolute;
+    width: 10%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.content2 .noidung{
+    line-height: 28px;
+    margin-left: 40%;
+}
+form{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -65%;
+    border: solid 1px gray;
+    width: 20%;
+    height: 70%;
+    border-radius: 3px;
+}
+form label{
+    font-family: .VnTime;
+
+}
+form input{
+    margin-left: 10px;
+    height: 6%;
+    width: 90%;
+    border-radius: 2px;
+    border: solid 1px ;
+    margin-top: 2%;
+}
+form textarea{
+    margin-left: 10px;
+    width: 90%;
+    height: 31%;
+}
+form button{
+    background: gray;
+    color: white;
+    width: 30%;
+    height: 5%;
+    margin-left: 65%;
+    margin-top: 16%;
+    border-radius: 40px;
+}
+footer{
+    background: gray;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    height: 30px;
+}
+footer p{
+    text-align: center;
+}
