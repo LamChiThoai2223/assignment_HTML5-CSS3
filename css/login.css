@@ -1,3 +1,15 @@
+body {
+    background-color: #eee;
+}
+.container {
+    margin-top: 50px;
+}
+#login-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
 .header {
     background: lightsalmon;
     height: 80px;
@@ -9,6 +21,7 @@
     background: lightsalmon;
     height: 80px;
     font-size: 20px;
+    margin-top: 190px;
 }
 .header img{
     margin-top: 10px;
