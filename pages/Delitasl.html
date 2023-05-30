@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var  url_string = Location.href;
+    var url = new URL(url_string);
+    var id = url.searchParams.get("id");
+    console.log(id);
+    let product =JSOn.parse( localStorage.getItem('ProductList'));
+</script>
+</body>
+</html>

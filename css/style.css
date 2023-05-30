@@ -13,6 +13,9 @@
 .header img{
     margin-top: 10px;
 }
+.carousel-item img{
+    height: 1000px;
+}
 .menu{
     z-index: 1;
     position: absolute;
@@ -35,4 +38,13 @@
     position: absolute;
     display: flex;
     z-index: 1;
+}
+.figure-caption button{
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background: crimson;
+}
+col-sm-4 figure {
+
 }
