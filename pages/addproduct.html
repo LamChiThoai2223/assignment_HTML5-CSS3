@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            width: 50%;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        button[type="submit"] {
+            background-color: #00f;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #007fff;
+        }
+
+    </style>
+</head>
+<body>
+<<div class="container">
+    <form action="/add-product" method="POST">
+        <label for="name">Tên sản phẩm:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="price">Giá:</label>
+        <input type="number" id="price" name="price" required>
+
+        <label for="description">Mô tả:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="image">Hình ảnh:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+
+        <button type="submit">Thêm sản phẩm</button>
+    </form>
+</div>
+
+</div>
+</body>
+</html>

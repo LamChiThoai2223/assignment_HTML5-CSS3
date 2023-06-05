@@ -3,20 +3,16 @@ function getData(){
     let htmlProduct = ``;
     for (let index = 0; index < product.length; index++) {
         htmlProduct += `
-        <div class="col-md-3">
-        <div class="product-card">
-          <div class="product-header">
-            <img class="product-image" src="img/${product[index].img}" alt="">
-          </div>
-          <div class="product-info">
-            <div class="product-name">${product[index].name}</div>
-            <div class="product-price">${product[index].price}</div>
-            <div class="product-buy">
-              <button class="btn btn-buy btn-block">Mua hàng</button>
-            </div>
-          </div>
-        </div>
-      </div>`
+       <figure class="col-sm-4 figure">
+                                            <img src="img/${product[index].img}" class="figure-img img-fluid rounded" alt="...">
+                                            <figcaption class="figure-caption">
+                                                <div name="name1">${product[index].name}</div>
+                                                <br>
+                                                <div>${product[index].price}</div>
+                                                <br>
+                                                <button>Buy</button>
+                                            </figcaption>
+                                        </figure>`
         console.log(product[index]);
     }
     document.getElementById("ProductHtml").innerHTML = htmlProduct;
